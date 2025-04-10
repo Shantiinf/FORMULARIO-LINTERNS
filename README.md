@@ -33,21 +33,22 @@
 
 # 📖 [NETWORK SCRIPT PROJECT]<a name="about-project"></a>
 
-**[formulario-webpack** Este fue un pequeño proyecto, desarrollado en html, css y JavaScript donde se usa webpack para optimizar y compilar el codigo fuente y poder desplegar este formulario.
+**[formulario-webpack** Este es el primer proyecto desplegado en webpack por medio de la aplicacion Microsoft Azure, un formulario web deplegado desde azure.**
 
 ## ⚒️ Build With <a name="built-with"></a>
 
 <p>
-This Projects was built using:
-HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
+En este proyecto se utilizo la siguiente tecnologias:
+html, javascript, css, webpack, azure, git, github
 </p>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <li> HTML </li>
+<li> JAVASCRIPT</li>
 <li> CSS </li>
-<li> JAVASCRIPT </li>
 <li> WEBPACK </li>
+<li> GIT <li>
 <li> GITHUB </li>
 
 <details>
@@ -56,14 +57,43 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
     <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>    
     </ul>
 </details>
-
-<details>
-<summary> Styles </summary>
+<summary>JavaScript</summary>
     <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">CSS</a></li>    
+    <li><a href=https://developer.mozilla.org/es/docs/Web/JavaScript>JavaScript</a></li>    
     </ul>
 </details>
+<summary> Styles </summary>
+    <ul>
+    <li><a href=https://developer.mozilla.org/en-US/docs/Web/CSS>CSS</a></li>    
+    </ul>
 
+<summary> webpack </summary>
+    <ul>
+    <li><a href=https://webpack.js.org>webpack</a></li>    
+    </ul>
+
+
+</details>
+
+
+<summary> Microfoft azure  </summary>
+    <ul>
+    <li><a href="https://formulario-webpack2-hzg5d5gbfzapf9cv.brazilsouth-01.azurewebsites.net/">Azure</a></li>    
+    </ul>
+
+
+<details>
+<summary>git</summary>
+<ul>
+<li><a href="https://git-scm.com/doc">GitHub</a></li>
+</ul>
+
+
+<summary>git</summary>
+<ul>
+<li><a href="https://git-scm.com/doc">Markdown</a></li>
+</ul>
+</details>
 
 
 
@@ -74,49 +104,70 @@ HTML, MARKDOWN AND SHELLSCRIPT, GIT, GITHUB
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
-To get a local copy up and running follow these steps:
+Para configurar una copia local seguir los siguientes pasos:
 
-### Prerequisitos
+### Prerequsites 
 
-To run this project you need the following tools:
+LAs herramientas que se necesita para poder ejecutar el proyecto son:
 
 - [VS Code]
 - [Git and GitHub]
-- [Azure ]
-- [Node ]
+- [ShellScript ]
+- [NodeJS]
+- [NPM]
+- [Webpack]
 
 ### Setup
 
-Clone this respository  to your desired folder:
+CLOAR EL PROYECTO EN UNA CARPETA NUEVA:
 
 ```sh
-cd NEWTORK-SCRIPT
-git clone https://github.com/Shantiinf/FORMULARIO-LINTERNS.git
-```
+cd Formulario-linterns
+git https://github.com/Shantiinf/FORMULARIO-LINTERNS.git
+
 ### Install
 
 Install This project with:
 
-```sh
-    ./networkScript.sh
+```
+1. npm install
+2. npm run build
+3. npm start
+4. npm test
+5. npm install --save-dev webpack webpack-cli
+6. npm install --save-dev webpack-dev-server
+7. npm install --save-dev html-webpack-plugin
+8. npm install --save-dev css-loader
+9. npm install -g azure-cli
+10. python -m unittest test_module.TestClass
+
+
+
 ```
 
 ### Usage 
 
-To run the project, execute the following command:
+Para correr el projecto, ejecute el siguiente comando:
 
-```pyhton
-./networkScript.sh
+```node 
+./node server.js
 ```
 
 ### Run Test
 
-To run test, run the following command or endpoint:
+Para ejecutar la prueba, ejecute el siguiente comando o punto final:
 
 ```sh
-python -m unittest test_module.TestClass
-```
+Eslint
+npx eslint .
+npx eslint . --fix
 
+```
+```sh
+Stylelint
+npx stylelint "**/*.css"
+npx stylelint "**/*.css" --fix
+```
 
 ### Deployment
 
@@ -126,19 +177,13 @@ Deploy using your local enviroment
 
 ## 👥 Authors <a name="authors"></a>
 
-Jeysson Contreras
+Santiago Infante Guzmán
 
 🧑🏻‍💻 **Author 1**
 
- - GitHub: [@alyconr](https://github.com/alyconr)
- - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jeysson-aly-contreras)
+ - GitHub: [@Shantiinf](https://github.com/Shantiinf/FORMULARIO-LINTERNS)
+ 
 
-
-## 🕹️ Future Features <a name="future-features"></a>
-
-- [ ] **[Ping]**
-- [ ] **[Nslookup]**
-- [ ] **[BandWitdth Test]**
 
 
 ## 🤝 Contributing <a name="contributing"></a>
@@ -146,7 +191,7 @@ Jeysson Contreras
 
 Contributions, issues, and  feature requests are welcome!
 
-Feel free tp check the [issues page](https://github.com/alyconr/Network-Shell-Script-/issues)
+Feel free tp check the [issues page](https://github.com/Shantiinf/FORMULARIO-LINTERNS/issues)
 
 
 ## ⭐ Show your Support
