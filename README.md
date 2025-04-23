@@ -119,7 +119,7 @@ LAs herramientas que se necesita para poder ejecutar el proyecto son:
 
 ### Setup
 
-CLOAR EL PROYECTO EN UNA CARPETA NUEVA:
+CLONAR EL PROYECTO EN UNA CARPETA NUEVA:
 
 ```sh
 cd Formulario-linterns
